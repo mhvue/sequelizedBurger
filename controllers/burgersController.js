@@ -1,5 +1,5 @@
 var express = require("express");
-
+require("dotenv").config();
 var router = express.Router();
 var burger = require("../models/burger.js");
 
