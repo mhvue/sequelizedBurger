@@ -1,7 +1,8 @@
 var express = require("express");
 
-var PORT = process.env.PORT || 8000;
 var app = express();
+var PORT = process.env.PORT || 8000;
+
 
 var db = require("./models");
 // Serve static content for the app from the "public" directory in the application directory.
