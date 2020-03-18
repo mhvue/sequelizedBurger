@@ -11,6 +11,7 @@ $(document).ready(function() {
     }).then(function(data) {
       // reload page to display devoured burger in proper column
       location.reload();
+      
     });
 
   });
