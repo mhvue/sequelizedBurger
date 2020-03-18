@@ -1,7 +1,6 @@
 var express = require("express");
 var router = express.Router();
 var db = require("../models")
-// console.log(db);
 
 
 // // get route -> index
@@ -34,15 +33,13 @@ router.post("/burgers/create", function(req, res) {
 router.put("/burgers/:id", function(req, res) {
   db.Burger.update(
     {
-    devoured: req.body.devoured
-  },{
-    where: {
-      id: req.params.id
+      devoured: true
+    },
+    {
+      where: {
+        id: req.params.id
     }
   }).then(function(dbburger) {
-
-    console.log(req.params.id)
-    console.log("yummmm" + dbburger);
     res.sendStatus(200);
   });
 });
