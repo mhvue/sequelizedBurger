@@ -7,4 +7,10 @@ Check it out here: https://fast-eyrie-90367.herokuapp.com
 <br><img src= "public/images/burgersWorking.png"></p>
 
 ## Technologies Used:
-This application is made with Node.js, Express.js, and Handlebars. It is deployed with Heroku. The data is being added and manipulated with MySQL and Sequelized. 
+* Node.js
+* Express.js
+* Handlebars
+* MySQL
+* Sequelized
+
+It is deployed with Heroku. 
